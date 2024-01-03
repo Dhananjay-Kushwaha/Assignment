@@ -1,0 +1,41 @@
+.container{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    -webkit-box-shadow: 1px 9px 5px 10px rgba(214,215,227,0.74);
+-moz-box-shadow: 1px 9px 5px 10px rgba(214,215,227,0.74);
+box-shadow: 1px 9px 5px 10px rgba(214,215,227,0.74);
+}
+
+.selectOption{
+    padding-top: 12px;
+    margin-left: 15px;
+    border:1px solid gray;
+    width: 120px;
+    border-radius: 5px;
+}
+
+select {
+    padding: 6px;
+    font-size: 16px;
+    border:none;
+    outline: none;
+  }
+
+  /* Styling when the select element is focused */
+  select:focus {
+    border-color: #007bff;
+  }
+
+  /* Styling the arrow icon for the select */
+  select::after {
+    content: '\25BC'; /* Unicode character for a down arrow */
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none; /* Ensure the arrow doesn't interfere with clicks */
+  }
+
+  /* Changing the background color on hover */
+  
